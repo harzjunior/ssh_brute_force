@@ -2,6 +2,15 @@
 
 WiFi File Shuttle is a Python-based tool that allows you to transfer files between devices on the same WiFi network using IP protocol. It features dynamic IP discovery and efficient data transfer using TCP sockets.
 
+⚠️ **Security Notice**: This tool is designed for use on trusted local networks. Please consider the following security implications:
+
+## Security Considerations
+
+- **Local Network Usage**: Ensure that you use WiFi File Shuttle only on trusted WiFi networks where you control the devices.
+- **IP Address Exposure**: Broadcasting and discovering IP addresses can expose device information within the local network.
+- **Encryption**: Files transferred using this tool are not encrypted. Avoid transferring sensitive information unless the network is secure.
+- **Authentication**: Implement additional authentication mechanisms if transferring sensitive files.
+
 ## Features
 
 - **Dynamic IP Discovery**: Automatically discovers the sender's IP address.
@@ -83,7 +92,7 @@ WiFi_file_shuttle/
 ├── receiver_larger_file.py
 ├── receiver.py
 ├── file_to_send.txt
-├── file_to_send_large.**txt**
+├── file_to_send_large.txt
 ├── received_file.txt
 ├── received_file_large.txt
 └── README.md
