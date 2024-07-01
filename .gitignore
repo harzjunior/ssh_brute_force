@@ -1,0 +1,19 @@
+# Python bytecode files
+*.pyc
+
+# Virtual environment
+venv/
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+
+# Compiled Python files
+__pycache__/
+
+# Logs
+*.log
+
+# Other generated files
+.DS_Store
+*.sqlite3
