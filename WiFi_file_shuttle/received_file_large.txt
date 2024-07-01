@@ -1,0 +1,12 @@
+Explanation
+Sender Script:
+
+Reads and sends the file in chunks of 1024 bytes.
+Continues sending chunks until the entire file is sent.
+Prints the number of bytes sent in each chunk.
+Receiver Script:
+
+Receives data in chunks of 1024 bytes.
+Writes each chunk to the file until all data is received.
+Prints the number of bytes received in each chunk.
+This should ensure that even larger files are transferred correctly and that the scripts handle the data transmission more robustly.
